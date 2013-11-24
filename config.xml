@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.goodfood"
+        versionCode ="1"
+        version     = "1.0.0">
+
+    <!-- Default icon app -->
+    <icon src="icon.png" />
+
+    <name>GoodFood</name>
+
+    <description>
+        Papejte zdravě.
+    </description>
+
+    <author href="https://build.phonegap.com" email="example@example.com">
+        Martin Antoš
+        dalsi
+    </author>
+
+    <!-- to enable individual permissions use the following examples -->
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+</widget>

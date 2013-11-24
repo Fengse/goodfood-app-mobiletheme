@@ -1,0 +1,59 @@
+.bar-title .title {font-family: 'Roboto Condensed'; font-size: 34px;}
+.bar-title {border:none;}
+.button-block.author {
+    margin-left: 50px;
+    margin-right: 50px;
+    background: none;
+    border: 3px solid #2D3E50;
+    box-shadow: none;
+    text-shadow: none;
+    color: #2D3E50;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-size: 25px;
+}
+.button-block.author:active {
+    background: #2D3E50;
+    color: #ffffff;
+    box-shadow: none;
+}
+.button-block {
+    margin-left: 50px;
+    margin-right: 50px;
+    background: none;
+    border: 3px solid #3CB879;
+    box-shadow: none;
+    text-shadow: none;
+    color: #ffffff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-size: 25px;
+}
+.button-block:active {
+    background: #3CB879;
+    color: #ffffff;
+    box-shadow: none;
+
+}
+.applogo {
+    /* margin: 0 auto; */
+    width:100%;
+    background: url('images/logo.png') center no-repeat;
+    height:370px;
+}
+.bar-title {
+    background: #2D3E50;
+}
+.colorline {
+    background: url('images/coloredline.png') repeat-x;
+    float:left;
+    width:100%;
+    height:4px;
+}
+.content {
+    background: #1B252F;
+}
+h2 {color: #3498DB;}
+body {color: #3498DB;}
